@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+:root{
+    --headColor :rgb(8, 8, 108);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:aliceblue;
+    transition: all 1s ease-in-out;
+
+}body{
+    font-family: "Poppins", sans-serif;
+    background: rgb(222, 224, 226); 
+}
