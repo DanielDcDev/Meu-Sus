@@ -1,0 +1,7 @@
+input{
+    border: 1px solid;
+    font-size: 1.2em;
+    color: #f3f4f9;
+    background-image: linear-gradient(90deg, #aaf2ef, rgb(209, 230, 246)); 
+    cursor: pointer;
+}
