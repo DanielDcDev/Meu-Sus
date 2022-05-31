@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    background: url("/imagens/fundo-saude-empresarial.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: aliceblue;
+}
+
+.conecte-se{
+    background-color: #f3f4f9;
+    height: 75vh;
+    border-radius: 15px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: #083892;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.fr {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px 50px 0;
+}
+
+.img {
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+}
+
+.fr input, .bt{
+    padding: 13px 40px;
+    border-radius: 15px;
+}
+
+.ipt-princ {
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.bt{
+    font-size: 1.2em;
+    color: #f3f4f9;
+    background-image: linear-gradient(90deg, #00a8f3, #8cfffb); 
+    cursor: pointer;
+}
+
+.pessoa {
+    width: 20px;
+    position: absolute;
+    left: 8px;
+}
+
+.cadeado {
+    width: 18px;
+    position: absolute;
+    left: 8px;
+}
+
+.check__lembrar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#check {
+    position: absolute;
+    opacity: 0;
+}
+
+#check:checked + .check-falso div {
+    display: flex;
+}
+
+.check-falso {
+    width: 22px;
+    height: 22px;
+    background-color: white;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.397);
+    cursor: pointer;
+}
+
+.check-falso div {
+    display: none;
+    width: 17px;
+    height: 9px;
+    background-color: transparent;
+    border-left: 3px solid blue;
+    border-bottom: 3px solid blue;
+    transform: translate(2px, 5px) rotate(-50deg);
+}
+
+label {
+    color: rgba(128, 128, 128, 0.842);
+    font-family: sans-serif;
+    font-size: 0.961em;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    padding: 0 0 0 5px;
+    user-select: none;
+}
+
+.senha {
+
+}
+
+.criar {
+    
+}
+
+.links {
+    color: rgba(128, 128, 128, 0.842);
+    font-size: 1.05em;
+    text-decoration: none;
+}
+
+.area-links {
+    width: 100%;
+    height: 20%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
