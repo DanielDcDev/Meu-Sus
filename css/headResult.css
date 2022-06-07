@@ -1,0 +1,18 @@
+.cont-head{
+    padding-top: 0%;
+    width:100%;
+    text-align:center;
+    position:relative;
+    background-color:var(--headColor);
+}
+.cont-head_itens{
+    display: inline-flex;
+    text-transform: uppercase;
+    margin: 0 1.25rem;
+}
+h3{
+    padding: 0.5rem
+}
+.title{
+    text-align: center;
+}
